@@ -10,10 +10,10 @@ export const Home = () => {
 {/* hero section */}
 <div className='bg-custom-bg2 bg-cover bg-center bg-no-repeat   flex-1'>
 
-<div className='flex flex-col justify-center gap-8  py-12 px-4 w-[70%] h-full '> 
+<div className='flex flex-col justify-center gap-8  px-2 lg:py-12 lg:px-4 w-full lg:w-[70%] h-full '> 
 
 <div>
-    <h1 className='text-5xl text-[#111624] font-bold'><span className='text-[#FE602F]'>Welcome</span> to Learn & <span className='text-[#A2BF00] flex mt-1  items-center'>Play.
+    <h1 className='lg:text-5xl text-3xl lg:text-start  px-12 lg:px-0 text-[#111624] font-bold'><span className='text-[#FE602F]'>Welcome</span> to Learn & <span className='text-[#A2BF00] flex mt-1   items-center'>Play.
 <img className='w-8 h-8 mt-3 ml-2' src={Union} alt="" />
 
     </span>
@@ -24,7 +24,7 @@ export const Home = () => {
 <div
    
 
-className=' font-semibold font-mulish w-[80%]'>
+className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
     <motion.p
        initial={{ x: "-100vw" }}
        animate={{ x: "0" }}
@@ -34,11 +34,11 @@ className=' font-semibold font-mulish w-[80%]'>
 
 </div>
 
-<div>
+<div className=' flex justify-center lg:justify-start'>
 <button
 
 
-                className='bg-[#FE602F] px-6 py-2 text-white  font-bold cursor-pointer hover:bg-[#FE602F]/90 transition-all duration-300
+                className='bg-[#FE602F] rounded-sm  px-12 lg:px-6 py-2 text-white  font-bold cursor-pointer hover:bg-[#FE602F]/90 transition-all duration-300
                 hover:scale-110 mt-2 animate-bounce hover:animate-none
                 '
 
