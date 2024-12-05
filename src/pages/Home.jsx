@@ -12,6 +12,7 @@ import monkey from '/Home/monkey.jpg'
 import { FaArrowRight } from "react-icons/fa";
 import { div } from 'framer-motion/client';
 import FeaturesCard from '../components/FeaturesCard';
+import Footer from '../components/Footer'
 
 export const Home = () => {
     const containerVariants = {
@@ -336,7 +337,72 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 </div>
 
 
+{/* contact us */}
+<div>
+<div className='h-full w-full font-atma bg-beige'>
+    <div className='bg-contact bg-cover h-[600px] bg-no-repeat'>
 
+<div className='flex flex-col py-12'>
+    <div><h1 className='text-[#F39C12] text-center'>Get in touch</h1></div>
+<div>
+<h1 className='text-center text-4xl font-semibold text-[#550964]'>Needs Help? Let’s Get in Touch</h1>
+
+</div>
+
+<div >
+<div className='flex  mt-12 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
+    <div className="w-1/2">
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Name" />
+    </div>
+    <div className="w-1/2">
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Name" />
+    </div>
+
+</div>
+<div className='flex  mt-4 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
+    <div className="w-full">
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Subject" />
+    </div>
+  
+
+</div>
+<div className='flex  mt-4 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
+    <div className="w-full">
+ <textarea className='w-full px-2 h-52 py-4 border  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black resize-none' placeholder='Enter Your Message' cols="90" name="Enter Message" id=""></textarea>
+    </div>
+  
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+{/* footer */}
+<div>
+<Footer/>
+</div>
 
     </div>
 

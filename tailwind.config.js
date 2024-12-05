@@ -11,6 +11,7 @@ export default {
       backgroundImage: {
         'custom-bg': "url('/Home/bg.png')",
         'custom-bg2': "url('/Home/bg2.png')",
+        'contact': "url('/Home/contact.png')",
       },
       fontFamily: {
         'mulish': ['Roboto', 'serif'],
