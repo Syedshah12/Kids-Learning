@@ -13,7 +13,7 @@ export const Home = () => {
 <div className='flex flex-col justify-center gap-8  px-2 lg:py-12 lg:px-4 w-full lg:w-[70%] h-full '> 
 
 <div>
-    <h1 className='lg:text-5xl text-3xl lg:text-start  px-12 lg:px-0 text-[#111624] font-bold'><span className='text-[#FE602F]'>Welcome</span> to Learn & <span className='text-[#A2BF00] flex mt-1   items-center'>Play.
+    <h1 className='lg:text-5xl text-4xl lg:text-start    px-12 lg:px-0 text-[#111624] font-bold'><span className='text-[#FE602F] flex'>Welcome
 <img className='w-8 h-8 mt-3 ml-2' src={Union} alt="" />
 
     </span>
@@ -34,7 +34,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
 
 </div>
 
-<div className=' flex justify-center lg:justify-start'>
+{/* <div className=' flex justify-center lg:justify-start'>
 <button
 
 
@@ -45,7 +45,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
                 >
           SIGN UP
               </button>
-</div>
+</div> */}
 
 </div>
 
