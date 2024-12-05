@@ -53,7 +53,7 @@ export const Home = () => {
 
 <div>
     <h1 className='lg:text-5xl text-4xl lg:text-start    px-12 lg:px-0 text-[#111624] font-bold'><span className='text-[#FE602F]  flex'>Welcome
-<img className='w-8 h-8 mt-2 lg:mt-3 ml-2 ' src={Union} alt="" />
+<img className='w-8 h-8 mt-1 lg:mt-3 ml-2 ' src={Union} alt="" />
 
     </span>
     
