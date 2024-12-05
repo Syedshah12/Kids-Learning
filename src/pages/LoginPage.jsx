@@ -16,7 +16,7 @@ const LoginPage = () => {
             <div className="w-full">
               <input
                 type="email"
-                placeholder="itsnaeemanjum@gmail.com"
+                placeholder="yourmail@gmail.com"
                 className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               />
             </div>
