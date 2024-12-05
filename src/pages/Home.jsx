@@ -8,7 +8,8 @@ import creativity from '/Home/creativity.png'
 import education from '/Home/education.png'
 import girl from '/Home/cartoon.png'
 import { motion } from "framer-motion";
-
+import monkey from '/Home/monkey.jpg'
+import { FaArrowRight } from "react-icons/fa";
 import { div } from 'framer-motion/client';
 import FeaturesCard from '../components/FeaturesCard';
 
@@ -28,6 +29,17 @@ export const Home = () => {
         visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
       };
 
+
+
+      const containerVariants1 = {
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
+      };
+    
+      const itemVariants1 = {
+        hidden: { opacity: 0, x: -100 },
+        visible: { opacity: 1, x: 0, transition: { type: 'spring', stiffness: 50 } },
+      };
 
   return (
     <div>
@@ -81,7 +93,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
 
     </div>
 
-<div className="bg-[#F5F5DD] border-2 py-6">
+<div className="bg-[#F5F5DD]  py-6">
 
 <div>
 <h1 className='text-5xl text-[#710A85] underline text-center w-full font-bold'>Features</h1>
@@ -192,6 +204,139 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
 
 
 </div>
+
+
+
+{/* Why Us */}
+{/* below hero 2 */}
+<div id='About' className='bg-beige'>
+<div className="flex lg:flex-row flex-col px-4 py-12   lg:px-8">
+
+{/* right */}
+<div className='w-full lg:w-1/2 px-1 lg:px-0 '>
+<img
+
+ // Smooth animation
+className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
+
+
+</div>
+    {/* left */}
+    <div className='w-full lg:w-1/2 '>
+<div className='p-8 lg:bg-gradient-to-l bg-gradient-to-b flex flex-col from-primary-black/20 via-gray-200 to-white     h-full'>
+<div  className='flex flex-col gap-2  h-full '>
+    <div>
+
+<h1 className='text-4xl font-atma text-[#66A701]  font-semibold'>WHY CHOOSE US?</h1>
+
+    </div>
+
+    <div className="flex flex-col justify-between h-full">
+      <motion.div
+        className="space-y-4"
+        variants={containerVariants1}
+        initial="hidden"
+        animate="visible"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }}
+      >
+        {/* Item 1 */}
+        <motion.div
+          className="px-2"
+          variants={itemVariants1}
+          whileInView="visible"
+          initial="hidden"
+          viewport={{ once: true }}
+        >
+          <h1 className="text-2xl text-[#826cf6]">Engaging Content</h1>
+          <div className="text-sm flex justify-center px-4 font-atma gap-2 mt-2">
+            <FaArrowRight className="mb-1" size={15} />
+            <p className="text-xs">
+              We offer a variety of interactive games and educational resources that make learning exciting.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Item 2 */}
+        <motion.div
+          className="px-2"
+          variants={itemVariants1}
+          whileInView="visible"
+          initial="hidden"
+          viewport={{ once: true }}
+        >
+          <h1 className="text-2xl text-[#826cf6]">Skill Development</h1>
+          <div className="text-xs flex justify-center px-4 font-atma gap-2 mt-2">
+            <FaArrowRight className="mb-1" size={15} />
+            <p>Our platform helps enhance cognitive skills like problem-solving, memory, and critical thinking.</p>
+          </div>
+        </motion.div>
+
+        {/* Item 3 */}
+        <motion.div
+          className="px-2"
+          variants={itemVariants1}
+          whileInView="visible"
+          initial="hidden"
+          viewport={{ once: true }}
+        >
+          <h1 className="text-2xl text-[#826cf6]">Fun Learning Experience</h1>
+          <div className="text-xs flex justify-center px-4 font-atma gap-2 mt-2">
+            <FaArrowRight className="mb-1" size={15} />
+            <p>Learning is never boring with our creative and immersive activities designed for kids.</p>
+          </div>
+        </motion.div>
+
+        {/* Item 4 */}
+        <motion.div
+          className="px-2"
+          variants={itemVariants1}
+          whileInView="visible"
+          initial="hidden"
+          viewport={{ once: true }}
+        >
+          <h1 className="text-2xl text-[#826cf6]">Comprehensive Approach</h1>
+          <div className="text-xs flex justify-center px-4 font-atma gap-2 mt-2">
+            <FaArrowRight className="mb-1" size={15} />
+            <p>
+              We cover multiple subjects including science, history, languages, and more to ensure a holistic
+              education.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Item 5 */}
+        <motion.div
+          className="px-2"
+          variants={itemVariants1}
+          whileInView="visible"
+          initial="hidden"
+          viewport={{ once: true }}
+        >
+          <h1 className="text-2xl text-[#826cf6]">Brain Growth Focused</h1>
+          <div className="text-xs flex justify-center px-4 font-atma gap-2 mt-2">
+            <FaArrowRight className="mb-1" size={15} />
+            <p>Our games and tasks are designed to boost brain function, improving focus, memory, and mental agility.</p>
+          </div>
+        </motion.div>
+      </motion.div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
 
     </div>
 
