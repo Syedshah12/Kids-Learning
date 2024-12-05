@@ -20,6 +20,7 @@ export default {
       colors:{
         'po':"#676767",
         'lo':"#F39361",
+        "beige":"#F5F5DD"
 
       }
     },

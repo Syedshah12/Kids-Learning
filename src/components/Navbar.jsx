@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from '/Home/Logo.svg'
 import Bulb from '/Home/bulb.png'
-import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
+
 export const Navbar = () => {
   return (
     <div>
@@ -18,9 +19,11 @@ export const Navbar = () => {
     <div className='hover:translate-y-px transform  cursor-pointer transition-transform duration-300 hover:text-orange-400'>Contact</div>
   </div>
     <div className="flex gap-2 font-atma">
-        <div className='text-orange-400 font-bold cursor-pointer transition-all duration-200 hover:text-orange-300'>Login</div>
+        <Link to={'/login'} className='text-orange-400 font-bold cursor-pointer transition-all duration-200 hover:text-orange-300'>Login</Link>
         <div className='w-[1px] bg-green-600'></div>
-        <div className='text-orange-400 font-bold cursor-pointer transition-all duration-200 hover:text-orange-300'>SignUp</div>
+        <Link 
+        to={'/register'}
+        className='text-orange-400 font-bold cursor-pointer transition-all duration-200 hover:text-orange-300'>SignUp</Link>
     </div>
 </div>
 

@@ -1,0 +1,21 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "labelsguru.com"
+        }
+      ],
+      "destination": "https://www.labelsguru.com/$1",
+      "permanent": true
+    }
+  ]
+}
