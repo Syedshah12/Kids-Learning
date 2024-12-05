@@ -228,7 +228,7 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 <div  className='flex flex-col gap-2  h-full '>
     <div>
 
-<h1 className='text-4xl font-atma text-[#66A701]  font-semibold'>WHY CHOOSE US?</h1>
+<h1 className='text-4xl font-atma text-[#F82377]  font-semibold'>WHY CHOOSE US?</h1>
 
     </div>
 
