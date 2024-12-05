@@ -53,7 +53,7 @@ export const Home = () => {
 
 <div>
     <h1 className='lg:text-5xl text-4xl lg:text-start    px-12 lg:px-0 text-[#111624] font-bold'><span className='text-[#FE602F]  flex'>Welcome
-<img className='w-8 h-8 mt-3 ml-2 ' src={Union} alt="" />
+<img className='w-8 h-8 mt-2 lg:mt-3 ml-2 ' src={Union} alt="" />
 
     </span>
     
@@ -352,23 +352,23 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 <div >
 <div className='flex  mt-12 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
     <div className="w-1/2">
-    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Name" />
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Your Name" />
     </div>
     <div className="w-1/2">
-    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Name" />
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Your Email" />
     </div>
 
 </div>
 <div className='flex  mt-4 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
     <div className="w-full">
-    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Enter Your Subject" />
+    <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Subject" />
     </div>
   
 
 </div>
 <div className='flex  mt-4 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
     <div className="w-full">
- <textarea className='w-full px-2 h-52 py-4 border  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black resize-none' placeholder='Enter Your Message' cols="90" name="Enter Message" id=""></textarea>
+ <textarea className='w-full px-2 h-52 py-4 border  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-black resize-none' placeholder='Message' cols="90" name="Your Message" id=""></textarea>
     </div>
   
 
