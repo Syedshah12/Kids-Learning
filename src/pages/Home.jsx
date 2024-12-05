@@ -8,7 +8,7 @@ import creativity from '/Home/creativity.png'
 import education from '/Home/education.png'
 import girl from '/Home/cartoon.png'
 import { motion } from "framer-motion";
-import monkey from '/Home/monkey.jpg'
+import monkey from '/Home/monkey.jpeg'
 import { FaArrowRight } from "react-icons/fa";
 import { div } from 'framer-motion/client';
 import FeaturesCard from '../components/FeaturesCard';
