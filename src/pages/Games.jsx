@@ -85,7 +85,7 @@ Test your observation and cognitive skills with our Pattern Recognition Game! Th
 
 </div>
 
-<div className='w-full flex  justify-center'><Link to={'/wordgame'} className='bg-purple-400 px-12 py-2 rounded-sm font-semibold font-atma mb-8 text-white cursor-pointer hover:scale-105 transition-all duration-200'>Play Now</Link></div>
+<div className='w-full flex  justify-center'><Link to={'#'} className='bg-purple-400 px-12 py-2 rounded-sm font-semibold font-atma mb-8 text-white cursor-pointer hover:scale-105 transition-all duration-200'>Play Now</Link></div>
     </div>
 </div>
 
