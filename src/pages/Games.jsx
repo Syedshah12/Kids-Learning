@@ -35,11 +35,11 @@ className='  object-cover  lg:max-h-[360px]'  src={wordgame} alt="" />
 <div className='px-4  h-full    py-4 flex flex-col         '>
 
 
-<div><h1 className='text-xl text-[#F78A8F] font-bold'>Challenge Your Mind with Our Word Game!</h1></div>
+<div><h1 className='text-xl text-[#F78A8F] font-bold'>Challenge Your Mind with  Word Game!</h1></div>
 
 
-<div className='flex flex-col h-full  gap-12 py-6'>
-<div className='font-atma  '>
+<div className='flex flex-col h-full  gap-8 py-6'>
+<div className='font-atma text-sm '>
 Dive into the exciting world of words with our engaging word game. Whether you're a vocabulary wizard or just looking for a fun way to sharpen your language skills, this game offers endless entertainment. Race against the clock, uncover hidden words, and challenge yourself to beat your high score. Perfect for players of all ages, our word game is a great way to boost your creativity and keep your brain active. Start playing today and discover the joy of wordplay!
 </div>
 
@@ -95,8 +95,8 @@ className=' max-h-[360px]  w-full object-cover object-center '  src={patterngame
 <div><h1 className='text-xl text-[#F78A8F] font-bold'>Master the Art of Pattern Recognition!</h1></div>
 
 
-<div className='flex flex-col h-full gap-12 py-6'>
-<div className='font-atma  '>
+<div className='flex flex-col h-full gap-8 py-6'>
+<div className='font-atma text-sm '>
 Test your observation and cognitive skills with our Pattern Recognition Game! This exciting challenge requires you to identify and match patterns within a set of images, numbers, or shapes. As the difficulty increases, so does the complexity of the patterns, pushing you to think faster and more creatively. Perfect for those who enjoy brain teasers and want to enhance their problem-solving abilities, this game offers endless fun while sharpening your pattern recognition skills. Ready to spot the pattern?
 </div>
 
