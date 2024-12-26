@@ -11,6 +11,8 @@ export default {
       backgroundImage: {
         'custom-bg': "url('/Home/bg.png')",
         'custom-bg2': "url('/Home/bg2.png')",
+        'wordgame': "url('/games/wrodgame.jpg')",
+        'patterngame': "url('/games/patterngame.jpeg')",
         'contact': "url('/Home/contact.png')",
       },
       fontFamily: {
