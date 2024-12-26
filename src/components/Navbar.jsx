@@ -14,7 +14,7 @@ export const Navbar = () => {
     </div>
 <div className='flex gap-12'>
   <div className='hidden lg:flex gap-4 text-[#111624]'>
-  <div className='hover:translate-y-px transform  cursor-pointer transition-transform duration-300 hover:text-orange-400'>Home</div>
+  <Link to={'/'} className='hover:translate-y-px transform  cursor-pointer transition-transform duration-300 hover:text-orange-400'>Home</Link>
     <div className='hover:translate-y-px transform  cursor-pointer transition-transform duration-300 hover:text-orange-400'>About</div>
     <div className='hover:translate-y-px transform  cursor-pointer transition-transform duration-300 hover:text-orange-400'>Contact</div>
   </div>

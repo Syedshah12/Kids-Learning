@@ -13,7 +13,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { div } from 'framer-motion/client';
 import FeaturesCard from '../components/FeaturesCard';
 import Footer from '../components/Footer'
-
+import { Link } from 'react-router'
 export const Home = () => {
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -117,6 +117,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
         <FeaturesCard
           icon={games}
           heading={"Interactive Games"}
+          link={"/games"}
           para={
             "Make learning exciting with our collection of interactive games! From memory-matching challenges to logic puzzles and math adventures, each game is designed to sharpen skills while keeping kids entertained. Learning has never been so fun!"
           }

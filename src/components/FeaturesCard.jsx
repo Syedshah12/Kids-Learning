@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router'
 
-const FeaturesCard = ({icon,heading,para}) => {
+const FeaturesCard = ({icon,heading,para,link}) => {
   return (
-    <div>
+    <Link to={`${link}`}>
 
 <div className='bg-[#B887C1]/60 shadow-xl shadow-[#710A85] flex flex-col justify-center items-center border-black border-2 rounded-xl group hover:bg-[#550964] transition-all duration-200  max-w-72 mt-12 cursor-pointer   p-6 h-64'>
 <div ><img className='w-12 mx-auto my-2' src={icon} alt="" srcset="" />
@@ -20,7 +21,7 @@ const FeaturesCard = ({icon,heading,para}) => {
 
 
 
-    </div>
+    </Link>
   )
 }
 

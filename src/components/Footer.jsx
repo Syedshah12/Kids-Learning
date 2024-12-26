@@ -11,7 +11,7 @@ const Footer = () => {
     <>
     
     
-    <div className=' mx-auto bg-[#FFE7C0]'>
+    <div className=' mx-auto '>
       <div className="relative flex justify-start md:justify-center md:items-end ">
         <img className="absolute object-cover top-10 h-full w-full xl:mt-10 z-0" src={footerbg} alt="background" />
         <div className="flex pt-36 md:pt-32 lg:pt-40 xl:pt-96   px-4 md:px-6  xl:px-20 flex-col justify-start items-start md:justify-center md:items-center relative z-10">
