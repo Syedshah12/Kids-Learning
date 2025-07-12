@@ -217,7 +217,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
 
 {/* Why Us */}
 {/* below hero 2 */}
-<div id='About' className='bg-beige'>
+<div id='about' className='bg-beige'>
 <div className="flex lg:flex-row flex-col px-4 py-12   lg:px-8">
 
 {/* right */}
@@ -345,7 +345,7 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 
 
 {/* contact us */}
-<div>
+<div id="contact">
 <div className='h-full w-full font-atma bg-beige'>
     <div className='bg-contact bg-cover h-[600px] bg-no-repeat'>
 
@@ -356,7 +356,17 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 
 </div>
 
-<div >
+<div className='flex w-full h-48 justify-center items-center'>
+  <a
+  href="mailto:abeershah392@gmail.com"
+  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-6 px-16 rounded-full text-xl shadow-lg transition duration-300 inline-block text-center"
+>
+  📧 Contact Us
+</a>
+</div>
+
+
+{/* <div >
 <div className='flex  mt-12 justify-center items-center w-[60%] mx-auto    border-red-500 gap-4'>
     <div className="w-1/2">
     <input className='w-full px-2 focus:ring-2 focus:ring-blue-500 py-4 rounded-md' type="text" placeholder="Your Name" />
@@ -382,7 +392,7 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 </div>
 
 
-</div>
+</div> */}
 
 
 </div>
