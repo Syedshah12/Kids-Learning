@@ -101,7 +101,7 @@ Test your observation and cognitive skills with our Pattern Recognition Game! Th
 </div>
 
 
-<div className='flex justify-center lg:justify-start'><Link to={'#'} className='bg-purple-400 px-12 py-2 rounded-sm font-semibold font-atma  text-white cursor-pointer hover:bg-purple-500 transition-all duration-200'>Play Now</Link></div>
+<div className='flex justify-center lg:justify-start'><Link to={'/patternGame'} className='bg-purple-400 px-12 py-2 rounded-sm font-semibold font-atma  text-white cursor-pointer hover:bg-purple-500 transition-all duration-200'>Play Now</Link></div>
 </div>
 
 

@@ -126,6 +126,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
 
       {/* Cognitive Skills Card */}
       <motion.div
+
         variants={cardVariants}
         whileInView="visible" // Trigger animation when in view
         initial="hidden" // Starting state
@@ -135,6 +136,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
         <FeaturesCard
           icon={skills}
           heading={"Cognitive Skills"}
+            link={"/cognitive-skills"}
           para={
             "Boost your problem-solving and critical thinking abilities with engaging tasks and scenarios. These activities are designed to enhance focus, memory, and reasoning, laying the foundation for lifelong learning."
           }
@@ -151,6 +153,8 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
       >
         <FeaturesCard
           icon={education}
+                  link={'/education'}
+
           heading={"Education"}
           para={
             "Unlock a world of knowledge with stories, rhymes, and fun facts! Whether it’s exploring science, history, or languages, our educational resources are crafted to make learning enjoyable and easy for kids of all ages."
@@ -178,6 +182,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
         <FeaturesCard
           icon={brain}
           heading={"Brain Enhancement"}
+          link={'/brain'}
           para={
             "Strengthen your mind with daily challenges and skill-building exercises. Track your progress and achieve milestones as you improve memory, focus, and mental agility with every session."
           }
@@ -195,6 +200,7 @@ className=' font-semibold font-mulish mx-auto lg:mx-0 w-[80%]'>
         <FeaturesCard
           icon={creativity}
           heading={"Creativity Boosters"}
+          link={'/creativity-boosters'}
           para={
           "Let your imagination soar! Draw, color, and compose music on our digital canvas. With tools for artistic expression and musical exploration, your creativity will find endless ways to shine."
           }
