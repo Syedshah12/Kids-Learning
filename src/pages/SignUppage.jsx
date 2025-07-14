@@ -78,7 +78,7 @@ const SignUppage = () => {
                 placeholder="Username"
                 value={formData.username}
                 onChange={handleChange}
-                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block w-full px-4 text-black py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -89,7 +89,7 @@ const SignUppage = () => {
                 placeholder="alishbaJavaid@gmail.com"
                 value={formData.email}
                 onChange={handleChange}
-                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block w-full px-4 text-black py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -100,7 +100,7 @@ const SignUppage = () => {
                 placeholder="Password"
                 value={formData.password}
                 onChange={handleChange}
-                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block w-full px-4 text-black py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -111,7 +111,7 @@ const SignUppage = () => {
                 placeholder="Confirm Password"
                 value={formData.confirmPassword}
                 onChange={handleChange}
-                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block w-full px-4 text-black py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>

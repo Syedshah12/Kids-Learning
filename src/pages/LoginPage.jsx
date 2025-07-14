@@ -69,7 +69,7 @@ const LoginPage = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="alishbaJavaid@gmail.com"
-                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block w-full px-4 py-2 border text-sm border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 text-black focus:border-blue-500"
                 required
               />
             </div>
@@ -80,7 +80,7 @@ const LoginPage = () => {
                 value={formData.password}
                 onChange={handleChange}
                 placeholder="Password"
-                className="block w-full px-4 text-sm py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="block text-black w-full px-4 text-sm py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
