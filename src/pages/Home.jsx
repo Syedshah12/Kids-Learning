@@ -359,7 +359,7 @@ className='h-[540px]  object-contain w-full'  src={monkey} alt="" />
 <div className='flex w-full h-48 justify-center items-center'>
   <a
   href="mailto:admin@gmail.com"
-  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-6 px-16 rounded-full text-xl shadow-lg transition duration-300 inline-block text-center"
+  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-full text-xl shadow-lg transition duration-300 inline-block text-center"
 >
   📧 Contact Us
 </a>
