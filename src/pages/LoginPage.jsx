@@ -22,7 +22,7 @@ const LoginPage = () => {
     setError('');
 
     try {
-      const res = await fetch('https://kids-backend-production-d9a6.up.railway.app/api/login', {
+      const res = await fetch('https://kids-backend-new-production.up.railway.app/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
